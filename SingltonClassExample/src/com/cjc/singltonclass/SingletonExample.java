@@ -14,6 +14,8 @@ final public class SingletonExample {
 		
 		if (se == null) {//create instance if not created
 			System.out.println("in if");
+			
+			//actual insatnce will create here
 			se = new SingletonExample();
 		}
 		return se;
